@@ -1,0 +1,85 @@
+:root {
+
+    --lightolive: #e7e8d1;
+    --scarlet: #a24538;
+    --screen: #a7a5a5;
+    --darkgray: #777777;
+}
+
+html {
+    font-family: "Helvetica", sans-serif;
+    background-color: var(--scarlet);
+}
+
+
+/* Login and SignUp */
+
+.email-login, .password-login {
+    font-size: 20px;
+
+    color: var(--screen);  
+}
+.loginTitle {
+    text-align: center;
+    font-size: 40px;
+
+    color: var(--lightolive);
+}
+.form-input {
+    width: 400px;
+    height: 25px;
+
+    margin: 10px 0 20px 0;
+
+
+    background-color: var(--lightolive);
+    border: 2px solid var(--darkgray);
+    border-radius: 5px;
+}
+.user, .password {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 0 15px 0;
+}
+.btn-primary {
+    text-decoration: none;
+    border: none;
+    border-radius: .375rem;
+
+    width: 100px;
+    height: 35px; 
+    font-size: 18px;
+    margin: 0px 20px;
+
+    color: var(--lightolive);
+    background-color: var(--screen);
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+
+    color: var(--scarlet);
+    background-color: var(--lightolive);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+   
+    height: 80vh
+}
+
+
+
+
+/* Home Page */
