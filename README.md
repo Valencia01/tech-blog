@@ -34,7 +34,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 
-N/A
+The Utils folder is from the mini project it is not my code
 
 ## Deployed Program
 
