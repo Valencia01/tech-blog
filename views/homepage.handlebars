@@ -1,21 +1,54 @@
-<header class="">
-    <h1>
-        <a href="/">Tech Blog</a>
-    </h1>
-    <nav>
-        {{!-- {{#if logged_in}}
-        <button class="no-button" id="logout">logout</button>
-        {{else}} --}}
-        <a href="/login">Login</a> |
-        <a href="/signup">Signup</a>
-        {{!-- {{/if}} --}}
-    </nav>
-</header>
+<div class="page">
+
+  <header class="top">
+      <h1>
+          <a href="/" class="title">Tech Blog</a>
+      </h1>
+      <nav>
+          {{!-- {{#if logged_in}}
+          <button class="no-button" id="logout">logout</button>
+          {{else}} --}}
+          <div class="nav-btns">
+            <a href="/login" class="nav-btn">Login</a> |
+            <a href="/signup" class="nav-btn">Signup</a>
+          </div>
+          {{!-- {{/if}} --}}
+      </nav>
+  </header>
 
 
-{{!-- {{#each projects as |project| }} --}}
-<div class="row mb-4 project">
+  {{!-- {{#each projects as |project| }} --}}
+  <div class="bottom">
+    <div class="card">
+      <div class="top-card">
+        <h3>Why MVC is Important</h3>
+        <p>Posted by Karina Valencia on 8/17/23</p>
+      </div>  
+      <div class="bottom-card">
+        <p class="blog-txt">MVC allows developers to maintain a true separation of concerns, devising their code between the model layer for data, the View layer for design, and the Controller layer application logic.</p>
+      </div>
+    </div>
 
-  
+    <div class="card">
+      <div class="top-card">
+        <h3>Why MVC is Important</h3>
+        <p>Posted by Karina Valencia on 8/17/23</p>
+      </div>  
+      <div class="bottom-card">
+        <p class="blog-txt">MVC allows developers to maintain a true separation of concerns, devising their code between the model layer for data, the View layer for design, and the Controller layer application logic.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="top-card">
+        <h3>Why MVC is Important</h3>
+        <p>Posted by Karina Valencia on 8/17/23</p>
+      </div>  
+      <div class="bottom-card">
+        <p class="blog-txt">MVC allows developers to maintain a true separation of concerns, devising their code between the model layer for data, the View layer for design, and the Controller layer application logic.</p>
+      </div>
+    </div>
+    
+  </div>
+  {{!-- {{/each}} --}}
 </div>
-{{!-- {{/each}} --}}

@@ -1,5 +1,6 @@
 :root {
 
+    --olive: #c0c1a8;
     --lightolive: #e7e8d1;
     --scarlet: #a24538;
     --screen: #a7a5a5;
@@ -9,6 +10,11 @@
 html {
     font-family: "Helvetica", sans-serif;
     background-color: var(--scarlet);
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -83,3 +89,85 @@ html {
 
 
 /* Home Page */
+
+/* Navigation */
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top {
+    background-color: var(--scarlet);
+    flex: 0 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom {
+    background-color: var(--lightolive);
+    flex: 0 0 80%
+}
+
+.title {
+    text-decoration: none;
+    color: var(--lightolive);
+    font-size: 40px;
+}
+
+.nav-btn, .nav-btns {
+    text-decoration: none;
+    color: var(--lightolive);
+    font-size: 25px;
+}
+
+.title, .nav-btns {
+    margin: 0px 20px;
+}
+
+.title:hover, .nav-btn:hover {
+    color: var(--olive)
+}
+
+/* Cards */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 90vw;
+    height: 170px;
+    border: 4px solid var(--scarlet);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-card {
+    flex: 0 0 30%;
+    background-color: var(--scarlet);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    color: var(--lightolive);
+
+}
+
+h3, p {
+    margin: 0;
+}
+
+.blog-txt {
+    padding: 20px;
+    font-size: 18px;
+}
+.bottom-card {
+    flex: 0 0 70%;
+    display: flex;
+    align-items: center;
+}
+
