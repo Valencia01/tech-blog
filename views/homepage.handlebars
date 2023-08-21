@@ -5,19 +5,19 @@
           <a href="/" class="title">Tech Blog</a>
       </h1>
       <nav>
-          {{!-- {{#if logged_in}}
-          <button class="no-button" id="logout">logout</button>
-          {{else}} --}}
+          {{#if logged_in}}
+          <button class="no-button nav-btn" id="logout">logout</button>
+          {{else}}
           <div class="nav-btns">
             <a href="/login" class="nav-btn">Login</a> |
             <a href="/signup" class="nav-btn">Signup</a>
           </div>
-          {{!-- {{/if}} --}}
+          {{/if}}
       </nav>
   </header>
 
 
-  {{!-- {{#each projects as |project| }} --}}
+  {{!-- {{#each blogs as |blog| }} --}}
   <div class="bottom">
     <div class="card">
       <div class="top-card">

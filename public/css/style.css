@@ -87,6 +87,30 @@ body {
 
 
 
+.btn-primary2 {
+    text-decoration: none;
+    border: none;
+    border-radius: .375rem;
+
+    padding: 8px 23px;
+    width: 100px;
+    height: 35px; 
+    font-size: 18px;
+    margin: 0px 20px;
+
+    color: var(--lightolive);
+    background-color: var(--screen);
+}
+
+.btn-primary2:hover {
+    cursor: pointer;
+
+    color: var(--scarlet);
+    background-color: var(--lightolive);
+}
+
+
+
 
 /* Home Page */
 
