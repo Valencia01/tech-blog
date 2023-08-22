@@ -17,7 +17,7 @@ This blog site is a place for developers to be able to talk about topics related
 
 ### Executing program
 
-[Heroku Link]()
+[Heroku Link](https://shielded-falls-00659-dcd4a8d863fc.herokuapp.com/)
 
 ## Author(s)
 
@@ -38,4 +38,6 @@ The Utils folder is from the mini project it is not my code
 
 ## Deployed Program
 
-![]()
+![homepage](/public/assets/images/pic1.png)
+![login](/public/assets/images/pic2.png)
+![signup](/public/assets/images/pic3.png)
